@@ -1,0 +1,15 @@
+cat < testfile
+
+ls -l > test2
+
+who >> test2
+
+ls -al badfile > test3
+
+ls -al badfile 2> test4
+
+ls -al test badtest test2 2> test5
+
+ls -al test test2 test3 badtest 2> test6 1> test7
+
+ls -al test test2 test3 badtest &> test7

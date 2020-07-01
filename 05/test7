@@ -1,0 +1,4 @@
+ls: cannot access test: No such file or directory
+ls: cannot access badtest: No such file or directory
+-rw-r--r-- 1 eprot oinstall 251 Jul  1 17:38 test2
+-rw-r--r-- 1 eprot oinstall   0 Jul  1 17:39 test3
