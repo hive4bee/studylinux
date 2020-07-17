@@ -1,0 +1,3 @@
+function divem { echo $[ $1 / $2 ]; }
+
+function doubleit { read -p "Enter value: " value; echo $[ $value * 2 ]; }

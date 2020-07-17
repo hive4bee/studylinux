@@ -1,0 +1,7 @@
+function addem {
+    echo $[ $1 + $2 ]
+}
+
+OR
+
+. /home/eprot/library/myfuncs
